@@ -1,0 +1,44 @@
+:root{
+    --cor-primaria:#d6e2f0;
+    --cor-secundaria:#7b879d;
+    --cor-terciaria:#1f3251;
+}
+body{
+    background-color: var(--cor-primaria);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    
+}
+
+.container .card{
+    background-color:#ffffff;
+    max-width: 20%;
+    padding: 10px;
+    text-align: center;
+    font-family: "outfit";
+    border-radius: 15px;
+}
+
+.container .card .qr-code{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.container .card .titulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor-terciaria);    
+}
+
+.container .card .descricao{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+

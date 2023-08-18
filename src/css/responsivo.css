@@ -1,0 +1,21 @@
+@media(max-width:1050px){
+    .container .card{
+        max-width:25%;
+    }
+
+    .container .card .titulo{
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:690px){
+    .container .card{
+        max-width: 40%;
+    }
+}
+
+@media(max-width:420px){
+    .container .card{
+        max-width: 65%;
+    }
+}
